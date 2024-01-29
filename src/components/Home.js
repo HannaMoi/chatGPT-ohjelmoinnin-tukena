@@ -17,9 +17,58 @@ const Home = () => {
               Julkaistu: 28.1.2024
             </div>
             </div>
-    <div className="home-section">
+    <div className="home-text-section">
     
       <h1>Tehokas kommunikointi ChatGPT:n kanssa</h1>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
+      <p>
+        ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
+        yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
+        syventää oppimista ja rikastuttaa tutkimustyötä. Tule tutustumaan, miten voit 
+        ottaa kaiken hyödyn irti tästä monipuolisesta tekoälytyökalusta!
+        
+      </p>
       <p>
         ChatGPT on avannut uuden aikakauden niin työelämässä, koulussa kuin normaalissa arjessa. Sen kyky ymmärtää ja tuottaa 
         yksityiskohtaista sisältöä antaa ainutlaatuisen mahdollisuuden 
