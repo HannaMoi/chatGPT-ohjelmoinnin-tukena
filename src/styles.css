@@ -19,7 +19,7 @@
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #333;
   }
-
+ 
     .footer {
     grid-area: footer;
     background-color: #f8f8f8; /* Vaalea, neutraali tausta */
@@ -74,27 +74,22 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     max-width: 1300px;
+    padding-left: 30px;
   }
-  .text-section, .home-section, .top-section {
+  .text-section, .home-section {
     
     background-color: #ffffff;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
-    max-width: 1300px;
+    max-width: 1600px;
+    color: #333;
   }
   .home-text-section {
     overflow-y: auto; /* Varmistaa, että ylittävä sisältö on vieritettävissä */
-    max-height: 600px; /* Säädä tämä korkeus tarpeidesi mukaan */
-  }
-  
-  .top-section img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    max-height: 800px; /* Säädä tämä korkeus tarpeidesi mukaan */
+    color: #666;
   }
   
  
@@ -140,5 +135,79 @@
     text-decoration: none; /* Poista alleviivaus hover-tilassa */
   }
 
+
+  .kuvat {
+    width: 250px; /* Säädä kuvan kokoa */
+    height: 100px;
+    margin-right: 15px;
+  }
+
+  /* Johdanto-osion tyylit */
+
+
+  .intro-section p {
+    font-size: 1.2em; /* Sopiva fonttikoko luettavuudelle */
+    line-height: 1.6; /* Riviväli parantamaan luettavuutta */
+    margin-bottom: 2em; /* Tilaa kappaleiden välillä */
+    text-align: left;
+  }
+
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
   
+   h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #666; /* Keskitumma tekstiväri */
+  }
+  .card {
+    width: 350px; /* Voit säätää kortin leveyttä tarpeidesi mukaan */
+    height: auto; /* Kortin korkeus mukautuu sisällön mukaan */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Tumma tekstiväri */
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
   
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Tämä kattaa koko kortin */
+    background-color: rgba(255, 255, 255, 0.8); /* Vaalean verhon väri ja läpinäkyvyys */
+    z-index: 1; /* Varmista, että tämä on pienempi kuin card-contentin z-index */
+  }
+  
+  .card-content {
+    position: relative; /* Tämä on avainasemassa */
+    padding: 20px;
+    text-align: left; /* Aseta tekstin vaakasuora kohdistus vasemmalle */
+    z-index: 2; /* Tämä nostaa sisällön verhon päälle */
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+
+  .idea-icon {
+    width: 20px;
+    height: 20px;
+  }
+

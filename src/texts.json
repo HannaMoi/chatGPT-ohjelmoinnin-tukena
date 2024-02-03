@@ -1,0 +1,26 @@
+{
+    "home": {
+      "header": "ChatGPT – Uuden aikakauden opiskelutyökalu",
+      "text1": "Tekoäly, erityisesti ChatGPT on jo nyt mullistanut niin työ- kuin vapaa-ajan opiskelumaailmasta puhumattakaan. ChatGPT:tä voi käyttää opiskelun työkaluna usealla eri tavalla, mutta mitä nämä tavat oikein ovat ja miten ChatGPT:tä voi käyttää mahdollisimman tehokkaasti?\n Tällä sivustolla keskitymme ChatGPT:n tehokkaaseen käyttöön ohjelmoinnin opiskelussa sekä oman GPT:n rakentamiseen.",
+      "cards": [
+        {
+          "title": "Tehokas Kommunikointi",
+          "text": "Tehokas kommunikointi ChatGPT:n kanssa on avain tehokkaaseen oppimiseen. Joskus uuden työkalun käyttöönotto voi tuntua turhauttavalta ja raskaalta. Näiden ohjeiden avustuksella pääset suoraan asiaan tehostamalla kommunikointia ja kehittämällä promptaustaitojasi. " ,
+          "backgroundImage": "/background3.jpg"
+        },
+        {
+          "title": "Oman GPT:n Rakentaminen",
+          "text": "Tutustu prosessiin, kuinka rakennat ja mukautat oman GPT-mallisi. Tämä osio tarjoaa perustiedot GPT-mallien toimintaperiaatteista, ohjeet mukautettavien mallien luomiseen ja vinkkejä niiden soveltamiseen omiin projekteihisi, olipa kyseessä uuden ohjelmointikielen opiskelu tai sovelluksen rakentaminen.",
+          "backgroundImage": "/background2.jpg"
+        }
+      ]
+    },
+    "body": {
+      "text-section": {
+        "header": "Vinkki",
+        "text": "Mieti mitä eroa on kehotteilla: \n 1. Kerro minulle Reactista  \n2. Kuinka voin siirtää tietoja yhdestä komponentista toiseen Reactissa käyttäen propseja?",
+        "text2": "Ensimmäinen kehote on epämääräinen, laaja ja siitä puuttuu selkeä tavoite tai ongelma, mikä johtaa myös epämääräisiin ja laajoihin vastauksiin"
+      }
+    }
+  }
+  
