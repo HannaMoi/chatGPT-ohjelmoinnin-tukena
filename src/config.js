@@ -3,8 +3,7 @@ const config = {
     routes: {
       home: '/',
       createGPT: '/create-gpt',
-      prompting: '/prompting',
-      courseDesign: '/course-design',
+      prompting: '/prompting'
       // Lisää reittejä...
     },
     // Voit lisätä muita yleisiä asetuksia täällä

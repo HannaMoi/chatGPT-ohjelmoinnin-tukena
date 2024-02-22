@@ -17,9 +17,6 @@ const NavigationBar = () => {
       <div className="nav-button">
         <Link to={prompting} className="nav-link">Tehokas kommunikointi</Link>
       </div>
-      <div className="nav-button">
-        <Link to="/course-design" className="nav-link">Ohjeita</Link>
-      </div>
       
     </nav>
   );

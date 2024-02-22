@@ -9,21 +9,23 @@
   grid-template-columns: 250px 1fr;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+ 
   }
   
   .header {
     grid-area: header;
     background-color: #f8f8f8; /* Vaalea, neutraali tausta */
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #333;
+    
   }
  
     .footer {
     grid-area: footer;
     background-color: #f8f8f8; /* Vaalea, neutraali tausta */
-    padding: 15px;
+    padding: 10px;
     text-align: lest;
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #333;
@@ -67,29 +69,42 @@
  /* Content-osion tyylit */
 .content  {
  
+ 
     margin: 20px;
     margin-left: 50px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    max-width: 1300px;
+    max-width: 1500px;
     padding-left: 30px;
   }
   .text-section, .home-section {
-    
+  
     background-color: #ffffff;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
-    max-width: 1600px;
+    max-width: 1700px;
     color: #333;
+   
+    
   }
   .home-text-section {
     overflow-y: auto; /* Varmistaa, että ylittävä sisältö on vieritettävissä */
     max-height: 800px; /* Säädä tämä korkeus tarpeidesi mukaan */
     color: #666;
+   
+  }
+  .create-text-section {
+    overflow-y: auto; /* Varmistaa, että ylittävä sisältö on vieritettävissä */
+    max-height: 800px; /* Säädä tämä korkeus tarpeidesi mukaan */
+    color: #666;
+    width: auto;
+    font-size: 0.8em;
+   
+  
   }
   
  
@@ -124,7 +139,7 @@
     border: none; /* Poista kehys */
     background-color: transparent; /* Läpinäkyvä tausta */
     color: #333; /* Tumma tekstiväri */
-    font-family: Arial, sans-serif; /* Yhtenäinen fontti */
+    font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 1em; /* Normaali fonttikoko */
     cursor: pointer; /* Muuta kursori kädensijaksi napin päällä */
     text-decoration: underline; /* Alleviivaa teksti */
@@ -136,12 +151,16 @@
   }
 
 
-  .kuvat {
-    width: 250px; /* Säädä kuvan kokoa */
-    height: 100px;
+  .modal-pictures {
+    
+    margin-left: 80px;
     margin-right: 15px;
+    transition: transform 0.3s ease; /* Lisää siirtymä tehoste suurennuksen yhteydessä */
   }
-
+  
+  .modal-pictures:hover {
+    transform: scale(1.5); /* Suurennetaan kuvaa hover-tilassa */
+  }
   /* Johdanto-osion tyylit */
 
 
@@ -150,28 +169,35 @@
     line-height: 1.6; /* Riviväli parantamaan luettavuutta */
     margin-bottom: 2em; /* Tilaa kappaleiden välillä */
     text-align: left;
+  
   }
 
 
   p {
     line-height: 1.6;
     margin-bottom: 1em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
   }
   
    h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    
   }
 
   h1 {
     padding-bottom: 10px;
     margin-bottom: 20px;
-    color: #666; /* Keskitumma tekstiväri */
+    color: #666; /* Keskitumma tekstiväri */ 
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.8em;
   }
-  .card {
+   .card {
     width: 350px; /* Voit säätää kortin leveyttä tarpeidesi mukaan */
-    height: auto; /* Kortin korkeus mukautuu sisällön mukaan */
+    height: 370px; /* Kortin korkeus mukautuu sisällön mukaan */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #333; /* Tumma tekstiväri */
@@ -179,6 +205,7 @@
     overflow: hidden;
     position: relative;
     text-align: center;
+    
   }
   
   .card::before {
@@ -189,21 +216,23 @@
     right: 0;
     bottom: 0; /* Tämä kattaa koko kortin */
     background-color: rgba(255, 255, 255, 0.8); /* Vaalean verhon väri ja läpinäkyvyys */
-    z-index: 1; /* Varmista, että tämä on pienempi kuin card-contentin z-index */
+
+    pointer-events: none; /* Sallii klikkaustapahtumien läpimenon */
   }
-  
+
   .card-content {
     position: relative; /* Tämä on avainasemassa */
     padding: 20px;
     text-align: left; /* Aseta tekstin vaakasuora kohdistus vasemmalle */
-    z-index: 2; /* Tämä nostaa sisällön verhon päälle */
+   
   }
   
-  .cards-container {
+ .cards-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+    
   }
 
   .idea-icon {
@@ -211,3 +240,28 @@
     height: 20px;
   }
 
+  .create-info {
+    background-color: #8caaa6; 
+    /* background-color: #a9bbba;  */
+    border-radius: 20px;
+    padding: 20px;
+    color:#ffffff;
+    font-size: 1em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
+  }
+
+  .rules-container {
+    margin: 30px auto;
+    max-width: 1200px; /* Adjust based on your layout's max width */
+    background-color: #fdfdfd; /* A light background to distinguish the section */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Space below the title */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

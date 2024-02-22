@@ -10,16 +10,31 @@
         },
         {
           "title": "Oman GPT:n Rakentaminen",
-          "text": "Tutustu prosessiin, kuinka rakennat ja mukautat oman GPT-mallisi. Tämä osio tarjoaa perustiedot GPT-mallien toimintaperiaatteista, ohjeet mukautettavien mallien luomiseen ja vinkkejä niiden soveltamiseen omiin projekteihisi, olipa kyseessä uuden ohjelmointikielen opiskelu tai sovelluksen rakentaminen.",
+          "text": "Tutustu prosessiin, kuinka luot oman GPT:n. Tämä osio tarjoaa perustiedot GPT-mallien toimintaperiaatteista, ohjeet mukautettavien mallien luomiseen ja vinkkejä niiden soveltamiseen omissa projekteissasi, olipa ajatuksenasi opiskella tai tehdä sovellusta.",
           "backgroundImage": "/background2.jpg"
         }
       ]
     },
-    "body": {
+    "tip": {
       "text-section": {
-        "header": "Vinkki",
+        "header": "Pähkinä",
         "text": "Mieti mitä eroa on kehotteilla: \n 1. Kerro minulle Reactista  \n2. Kuinka voin siirtää tietoja yhdestä komponentista toiseen Reactissa käyttäen propseja?",
-        "text2": "Ensimmäinen kehote on epämääräinen, laaja ja siitä puuttuu selkeä tavoite tai ongelma, mikä johtaa myös epämääräisiin ja laajoihin vastauksiin"
+        "solutionText": "Ensimmäinen kehote on epämääräinen, laaja ja siitä puuttuu selkeä tavoite tai ongelma, mikä johtaa myös epämääräisiin ja laajoihin vastauksiin."
+      }
+    },
+    "createGpt": {
+      "text-section": {
+        "header": "Oma GPT",
+        "text":"OpenAI on kehittänyt GPT:t, jotka ovat mukautettavia ChatGPT-versioita erityisiin käyttötarkoituksiin. GPT:t mahdollistavat käyttäjille luoda personoituja ChatGPT-versioita ilman koodaustaitoja. Luomisprosessi alkaa vuorovaikutuksella luomistyökalun kanssa, jossa käyttäjät antavat ohjeita ja määrittelevät GPT:n halutut toiminnallisuudet, kuten verkkoselailun, kuvien luomisen tai datan analysoinnin. Tämä prosessi on suunniteltu helppokäyttöiseksi, jolloin käyttäjät voivat suunnitella GPT:n toiminnot ja ominaisuudet vuoropuhelun kautta. \n Personoidut GPT:t tarjoavat etuja perinteiseen ChatGPT:hen verrattuna, erityisesti niiden kyvyssä käsitellä ajantasaista ja käyttäjäkohtaista tietoa. Toisin kuin normaali keskusteluikkuna ChatGPT:n kanssa, personoidut GPT:t voivat hyödyntää käyttäjien lataamia tiedostoja. Tämä mahdollistaa niiden tietopohjan laajentamisen ja päivittämisen uusimmilla tiedoilla. Lisäksi personoidut GPT:t mahdollistavat tarkempien ja yksityiskohtaisten vastausten tuottamisen, sillä ne voidaan ohjelmoida vastaamaan erityistarpeisiin ja erilaisiin konteksteihin. Niiden käyttöliittymässä on myös asetuksia, jotka tukevat laajempaa soveltuvuutta, kuten kykyä yhdistää kolmannen osapuolen sovelluksiin ja palveluihin",
+        "header2": "Luo oma GPT",
+        "text2": "Tulemme luomaan tässä esimerkissä GPT:stä Reactin opiskelua varten kurssipohjan. Oman GPT:n luominen lähtee siitä, että kirjaudutaan ensin osoitteeseen https://chat.openai.com/. Mikäli tunnuksia ei vielä ole niin tässä kohtaa rekisteröidytään ja hankitaan plus -jäsenyys, muuten ei omaa GPT:tä saa luotua. Kirjautumisen jälkeen avautuu uusi chat-ikkuna ja vasemmalla yläreunassa on Explore-valikko, jota klikkaamalla avautuu omat GPT:t. Klikkaamalla ”Create a GPT” päästään luomaan oma, personoitu GPT.",
+        "text3": "Avataan toinen ChatGPT:n ikkuna ja haetaan plugineista Prompt Perfect ja laitetaan se päälle. HUOM! Tämä ei ole pakollinen, koska GPT:n luomisesvaiheessa voi keskustella ominaisuudet tarkemmiksi, mutta tehdään nyt mahdollisimman tehokkaasti alusta alkaen kehoitteet.",
+        "text4": "Tämän jälkeen aloitetaan kirjoitus Chat-ikkunaan sanalla ”Perfect ”, jotta Prompt Perfect aktivoituu. Tarkoituksena on nyt saada ulos sellainen kehote, jonka avulla kurssityylinen GPT luodaan. Jatkamme lausetta esimerkiksi ”Olemme luomassa kurssia, jonka tarkoituksena on ensin oppia Reactin perusteet ja sen jälkeen luoda nettisivu, jolle kootaan oppimisen tulokset. Kurssin tulisi kestää yhteensä 60 tuntia, jaettuna kahteen pääteemaan eli tekniseen opiskeluun ja nettisivun rakentamiseen. ",
+        "text5": "Vaikka kehotus kirjoitettiin suomeksi, kuten kuvasta voidaan havaita, antaa Prompt Perfect englanniksi uuden, paremmin muotoillun kehotteen. Tässä kohtaa voidaan myös huomioida, että ChatGPT antoi samalla kurssia varten rungon. Otetaan runko talteen ja käytetään sitä myöhemmässä vaiheessa alustamaan GPT:n aikataulua. Seuraavaksi kopioidaan Prompt Perfectin antama kehote ja syötetään se GPT:lle. ",
+        "text6": "GPT tulee kysymään tässä vaiheessa tarkentavia kysymyksiä, kuten millainen rooli GPT:llä pitäisi olla, suunnitteleeko se tunteja vai keskittyykö enemmän käsitteiden selittämiseen, onko jotain tiettyjä opetusmetodeja, joita tulisi korostaa tai välttää ja mikä on lähtötaso opiskelijalla, onko jo osaamista esimerkiksi Reactissa tarvittavasta JavaScriptistä. Mikäli viimeisintä ei kysytä automaattisesti niin se kannattaa ehdottomasti tarkentaa GPT:lle. Tässä vaiheessa valitaan siis henkilökohtaisiin mieltymyksiin perustuen GPT:n ominaisuuksia ja tarkennetaan tarvittavia taustatietoja (näitä voi myös myöhemmin muuttaa ja tarkentaa). \n Kyseisen GPT:n luomisessa haluttiin, että pohjana käytetään toisessa keskustelussa luotua runkoa kurssille ja, että opetus painottuu esimerkkeihin ja niiden kautta selittämiseen. Kerrotaan myös tarkentavasti, että aikataulun mukaisesti tulisi opiskella 2 tuntia päivässä 60 päivän ajan ja, että GPT optimoisi ajankäytön sekä suunnittelee kurssin sen perusteella. Aikataulu näyttää nyt Reactin opiskelun kannalta kuvan mukaiselta. Eli yhteensä opiskellaan teknistä puolta 36 tuntia jaettua erilaisiin teemoihin, suurimmat teemat ovat jaettuna kahdelle eri päivälle. ",
+        "text7": "ja nettisivujen tekemiselle jää tällöin 24 tuntia ja teemat jaoteltu jokaisessa osiossa kahdelle päivälle.",
+        "text8": "Tallennetaan aikataulu ja muistetaan, että GPT:n yksi hienoimmista ominaisuuksista on, että sille voi syöttää tiedostoja, joten syötetään sille tiedostona äsken saatu aikautaulu. Kun  kaikki tällä hetkellä kaipaamamme ominaisuudet on GPT:lle valittu niin painetaan valmista ja opiskelu voi alkaa. GPT antaakin heti vastauksena ensimmäisen päivän sisällön "
+        
       }
     }
   }
