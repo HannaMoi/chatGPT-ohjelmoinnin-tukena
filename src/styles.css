@@ -185,6 +185,7 @@
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-family: 'Helvetica', 'Arial', sans-serif;
+
     
   }
 
@@ -254,7 +255,7 @@
   .rules-container {
     margin: 30px auto;
     max-width: 1200px; /* Adjust based on your layout's max width */
-    background-color: #fdfdfd; /* A light background to distinguish the section */
+    background-color: #c7c3c3; /* A light background to distinguish the section */
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
@@ -264,4 +265,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+    cursor: pointer; /* Muuta kursori kädensijaksi napin päällä */
+  }
+  .modal-content {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+
+
