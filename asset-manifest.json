@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57e4c659.css",
-    "main.js": "/static/js/main.5f5af8ab.js",
+    "main.js": "/static/js/main.75c6f99b.js",
     "static/js/787.59fe0381.chunk.js": "/static/js/787.59fe0381.chunk.js",
     "static/media/perfect.jpg": "/static/media/perfect.468c2f389f5168dc03da.jpg",
     "static/media/iteratiivinen.jpg": "/static/media/iteratiivinen.4cd6942e3618dcfab7c1.jpg",
@@ -20,11 +20,11 @@
     "static/media/kuva4.jpg": "/static/media/kuva4.f5aa689465150778fefd.jpg",
     "index.html": "/index.html",
     "main.57e4c659.css.map": "/static/css/main.57e4c659.css.map",
-    "main.5f5af8ab.js.map": "/static/js/main.5f5af8ab.js.map",
+    "main.75c6f99b.js.map": "/static/js/main.75c6f99b.js.map",
     "787.59fe0381.chunk.js.map": "/static/js/787.59fe0381.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57e4c659.css",
-    "static/js/main.5f5af8ab.js"
+    "static/js/main.75c6f99b.js"
   ]
 }
